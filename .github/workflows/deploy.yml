@@ -1,4 +1,8 @@
 name: Deploy
+defaults:
+  run:
+    working-directory: web
+
 
 on:
   push:
