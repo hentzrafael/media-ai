@@ -22,3 +22,16 @@ Content-Type: application/json
 {
     "prompt":"calculo de sub-redes, redes, internet"
 }
+
+###
+
+# @name generate-ai-completion
+
+POST http://localhost:3333/ai/complete
+Content-Type: application/json
+
+{
+    "videoId":"93408e7b-c526-4fa3-9551-6362a54bf0cc",
+    "temperature":0.5,
+    "template":"Gere um resumo sucinto da transcrição do vídeo informada a seguir:'''{transcription}'''"
+}
