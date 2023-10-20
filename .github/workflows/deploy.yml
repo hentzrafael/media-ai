@@ -38,8 +38,6 @@ jobs:
     if: github.ref == 'refs/heads/main'
 
     steps:
-      - name: Change Directory
-        run: cd web
       - name: Download artifact
         uses: actions/download-artifact@v3
         with:
