@@ -39,7 +39,7 @@ export function App() {
             Desenvolvido com 💖 no NLW da Rocketseat
           </span>
           <Separator orientation="vertical" className="h-6"/>
-          <Button variant={"outline"}>
+          <Button variant={"outline"} onClick={() => window.open('https://github.com/hentzrafael/media-ai')}>
             <Github className="w-4 h-4 mr-2"/>
             Github
             </Button>
